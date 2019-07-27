@@ -1,5 +1,7 @@
+package Board;
+
 public class Card {
-	enum Suit {Spades, Hearts, Diamonds, Clubs};
+	public enum Suit {Spades, Hearts, Diamonds, Clubs};
 	private Suit suit;
 	private int value;
 	private boolean visible;
